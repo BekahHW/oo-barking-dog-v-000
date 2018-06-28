@@ -1,4 +1,12 @@
 # Your code goes here!
 class Dog
-  attr_accessor :name, :bark= "woof!"
+  attr_accessor :name
+  
+  def @bark=(bark)
+    puts "woof!"
+  end
+  
+  def bark
+    @bark
+  end
 end
