@@ -2,7 +2,7 @@
 class Dog
   attr_accessor :name
   
-  def bark=(bark)
+  def bark= (bark)
     puts "woof!"
   end
   
